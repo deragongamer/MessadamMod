@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "messadam",
+  "version": "1.0.0",
+  "name": "Messadam Mod",
+  "description": "Advanced military systems mod with missiles, drones, and more.",
+  "authors": ["ChatGPT"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.messadam.mod.MessadamMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
